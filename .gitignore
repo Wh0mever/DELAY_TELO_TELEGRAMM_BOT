@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Database
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Certificates (сгенерированные)
+certificates/*.png
+!certificates/.gitkeep
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Config (для безопасности)
+# Если у вас токен в отдельном файле
+# config_local.py
+# .env
+
+# Temp files
+*.tmp
+temp/
+tmp/
+
+# Backups
+*.bak
+*.backup
+
+# Test files
+test_certificate*.png
+test_simple_cert.png
+output.txt
+
+# Batch files (временные)
+run_test*.bat
+test_*.bat
