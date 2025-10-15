@@ -6,7 +6,7 @@
 import os
 
 # Токен бота
-BOT_TOKEN = "8357062293:AAFChKKrpKLIU_cSSTVF3QV4WeDk5Bf4nYg"
+BOT_TOKEN = "-------------------------"
 
 # Пути к директориям
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -37,7 +37,7 @@ PDFS = {
 }
 
 # ID канала с видео
-VIDEO_CHANNEL_ID = -1003006477133
+VIDEO_CHANNEL_ID = -10000000000000000
 
 # Message ID для каждого видео в канале (реальные ID из t.me/c/3006477133/X)
 VIDEO_MESSAGE_IDS = {
